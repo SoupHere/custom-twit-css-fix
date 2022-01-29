@@ -4,7 +4,7 @@
 // @description fixes twitter's terrible blur filter BS
 // Only run on this domain:
 // @include http://twitter.com/*
-// @resource customCSS https://raw.githubusercontent.com/SoupHere/custom-twit-css-fix/main/twitfix.css
+// @resource customCSS https://github.com/SoupHere/custom-twit-css-fix/raw/main/twitfix.css
 // ==/UserScript==
 console.debug('start: add CSS');
 var cssTxt  = GM_getResourceText("customCSS");
