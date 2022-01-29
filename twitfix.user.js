@@ -6,3 +6,7 @@
 // @include http://twitter.com/*
 // @resource customCSS https://raw.githubusercontent.com/SoupHere/custom-twit-css-fix/main/twitfix.css
 // ==/UserScript==
+console.debug('start: add CSS');
+var cssTxt  = GM_getResourceText("customCSS");
+GM_addStyle (cssTxt);
+console.debug('done: add CSS');
